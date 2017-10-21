@@ -1,0 +1,3 @@
+python hag.py&
+python hag_get.py
+trap 'kill $(jobs -p)' EXIT
